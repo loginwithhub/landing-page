@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto|Saira+Extra+Condensed:200,300');
+/* CORE FRAMEWORKS */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+#logo {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 2em;
+	font-weight: 200; 
+}
+
+section {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+#sec-one h1 {
+    margin: 0;
+}
+
+.flex-item-pair {
+	width: 70%;
+    display: flex;
+	flex-direction: row;
+}
+
+.flex-item {
+	line-height: 2.5em;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 5em;
+}
+
+.product-image {
+	background-color: #333;
+	width: 100%;
+	height: 100%;
+}
+
+.flex-item p {
+	font-family: 'Quicksand';
+	font-size: 1.5em;
+}
+
+.flex-item h2 {
+	font-size: 2em;
+	font-family: 'Quicksand';
+}
+
+section {
+	background-color: #27ae60;
+	margin: auto;
+	max-width: 100vw;
+    min-height: 100vh;
+}
+
+#sec-one {
+	color: #f9f9f9;
+}
+
+#sec-two {
+    background-color: #27ae60;
+}
+
+section .container {
+    padding: 2em;
+}
+
+.top-container {
+	margin: auto;
+}
+
+.item-one, .item-two, .item-three {
+    padding: 1em;
+    max-width: 33%;
+}
+
+.card {
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	background-color: #f9f9f9;
+	box-shadow: -4px 4px 0 2px rgba(0,0,0,0.15);
+	padding: 5em;
+}
+
+input, button, submit { border:none; } 
+.btn {
+	border: 2px solid #f9f9f9;
+	background-color: rgba(0,0,0,0);
+	color: #f9f9f9;
+	width: 100%;
+	padding: 0.5em;
+	font-size: 1.5em;
+	font-family: 'Saira Extra Condensed';
+	font-weight: 300;
+}
