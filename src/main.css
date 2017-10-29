@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway|Inconsolata:400,700');
 
 * {
 	box-sizing: border-box;
@@ -47,7 +47,7 @@ header {
 }
 
 .flex-item img {
-	max-width: 70%;
+	width: 70%;
 	flex-shrink: 0;
 	align-self: center;
 }
@@ -75,13 +75,14 @@ section {
 
 #sec-two {
   background-color: #eee;
+  min-height: 50vh;
 }
 
 section .container {
 	display: flex;
 	flex-direction: row;
   height: 70vh;
-	max-width: 800px; 
+	width: 800px; 
 	align-self: center;
 }
 
@@ -118,4 +119,44 @@ button {
 	font-size: 1.5em;
 	font-weight: 300;
 	border-radius: 500px;
+	margin-bottom: 40px;
+}
+
+.custom-counter {
+  color: #777;
+  font-family: 'Inconsolata';
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5em;
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.custom-counter li {
+  counter-increment: step-counter;
+}
+
+.custom-counter li::before {
+  content: counter(step-counter);
+  margin-right: 30px;
+  width: 20px;
+  text-align: right;
+  font-weight: 700;
+}
+
+.code-tab {
+  padding-left: 10px;
+}
+
+#sec-two .row {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: #eee;
 }
