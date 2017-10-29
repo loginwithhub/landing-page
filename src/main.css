@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto|Saira+Extra+Condensed:200,300');
-/* CORE FRAMEWORKS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway');
+
 * {
 	box-sizing: border-box;
 }
 
+h1, h2, h3, button {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
 body {
 	margin: 0;
-  font-family: Roboto, sans-serif;
   font-weight: 300;
   box-sizing: border-box;
   background-color: #eee;
@@ -37,7 +44,6 @@ header {
 	flex: 1;
   flex-direction: column;
 	justify-content: center;
-	line-height: 2.2em;
 }
 
 .flex-item img {
@@ -47,14 +53,13 @@ header {
 }
 
 .flex-item p {
-	font-family: 'Quicksand';
 	font-size: 1.2em;
+	line-height: 1.7;
 }
 
 .flex-item h2 {
-	margin: 0;
-	font-size: 1.8em;
-	font-family: 'Quicksand';
+	font-size: 3em;
+	margin-bottom: 0em;
 }
 
 section {
@@ -98,11 +103,7 @@ section .container {
 	padding: 5em;
 }
 
-input, button, submit {
-	border:none;
-} 
-
-.btn {
+button {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bb5ef9+0,f25e99+100 */
 	background: #bb5ef9; /* Old browsers */
 	background: -moz-linear-gradient(left,  #bb5ef9 0%, #f25e99 100%); /* FF3.6-15 */
@@ -110,13 +111,11 @@ input, button, submit {
 	background: linear-gradient(to right,  #bb5ef9 0%,#f25e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb5ef9', endColorstr='#f25e99',GradientType=1 ); /* IE6-9 */
 
+	border: none;
 	color: #f9f9f9;
 	width: 100%;
 	padding: 0.5em;
 	font-size: 1.5em;
-	font-family: 'Saira Extra Condensed';
 	font-weight: 300;
 	border-radius: 500px;
-
-	margin-bottom: 40px;
 }
