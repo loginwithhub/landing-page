@@ -15,7 +15,6 @@ p {
 body {
 	margin: 0;
   font-weight: 300;
-  box-sizing: border-box;
   background-color: #eee;
 }
 
