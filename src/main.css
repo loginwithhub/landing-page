@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway|Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abel|Concert+One|Karla|Open+Sans+Condensed:300|Varela+Round');
 
 body * {
 	display: flex;
@@ -7,42 +8,37 @@ body * {
 }
 
 h1, h2, h3, button {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Abel', sans-serif;
 }
 
 button {
 	display: block;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bb5ef9+0,f25e99+100 */
-	background: #bb5ef9; /* Old browsers */
-	background: -moz-linear-gradient(left,  #bb5ef9 0%, #f25e99 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  #bb5ef9 0%,#f25e99 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  #bb5ef9 0%,#f25e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb5ef9', endColorstr='#f25e99',GradientType=1 ); /* IE6-9 */
-
+	background: #4F6367;
 	border: none;
 	color: #f9f9f9;
 	width: 100%;
-	padding: 0.5em;
-	font-size: 1.5em;
+	padding: 0.8em;
+	font-size: 1.1em;
 	font-weight: 300;
 	border-radius: 500px;
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2.5em;
 	margin: 0em;
 }
 
 p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.2em;
-	line-height: 1.7;
+	font-family: 'Karla', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.6;
 }
 
 body {
 	margin: 0;
   font-weight: 300;
-  background-color: #eee;
+  background-color: #FFEDD1;
 }
 
 section {
@@ -63,12 +59,17 @@ section .content {
 
 #section-one {
 	color: #f9f9f9;
-	background-color: #27ae60;
+	background-color: #ED6B57;
 }
 
 #section-two {
 	color: #333;
-  background-color: #eee;
+  background-color: #FFEDD1;
+}
+
+#section-three {
+color: #f9f9f9;
+  background-color: #4F6367;
 }
 
 #logo {
