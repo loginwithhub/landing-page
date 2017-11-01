@@ -2,113 +2,116 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Concert+One|Karla|Open+Sans+Condensed:300|Varela+Round');
 
 body * {
-	display: flex;
-	position: relative;
-	box-sizing: border-box;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, button {
-	font-family: 'Abel', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 button {
-	display: block;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bb5ef9+0,f25e99+100 */
-	background: #4F6367;
-	border: none;
-	color: #f9f9f9;
-	width: 100%;
-	padding: 0.8em;
-	font-size: 1.1em;
-	font-weight: 300;
-	border-radius: 500px;
+  display: block;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bb5ef9+0,f25e99+100 */
+  background: #4F6367;
+  border: none;
+  color: #f9f9f9;
+  width: 100%;
+  padding: 0.8em;
+  font-size: 1.1em;
+  font-weight: 300;
+  border-radius: 500px;
 }
 
 h2 {
-	font-size: 2.5em;
-	margin: 0em;
+  font-size: 2.5em;
+  margin: 0em;
 }
 
 p {
-	font-family: 'Karla', sans-serif;
-	font-size: 1.1em;
-	line-height: 1.6;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 
 body {
-	margin: 0;
+  margin: 0;
   font-weight: 300;
   background-color: #FFEDD1;
 }
 
 section {
-	width: calc(100vw - 20px);
+  width: calc(100vw - 20px);
   min-height: calc(100vh - 20px);
-	margin: 10px;
-	border-radius: 5px;
-	justify-content: center;
-	align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 section .content {
-	flex-direction: row;
-  	max-height: 70vh;
-	max-width: 800px;
-	padding: 2vw;
+  flex-direction: row;
+  max-height: 70vh;
+  max-width: 800px;
+  padding: 2vw;
 }
 
 #section-one {
-	color: #f9f9f9;
-	background-color: #ED6B57;
+  color: #f9f9f9;
+  background-color: #ED6B57;
+}
+
+#section-one {
+
 }
 
 #section-two {
-	color: #333;
+  color: #333;
   background-color: #FFEDD1;
 }
 
 #section-three {
-color: #f9f9f9;
+  color: #f9f9f9;
   background-color: #4F6367;
 }
 
 #logo {
-	position: absolute;
-	width: 50px;
-	left: 50px;
-	top: 50px;
+  position: absolute;
+  width: 50px;
+  left: 50px;
+  top: 50px;
 }
 
 #arrow {
-	position: absolute;
-	width: 40px;
-	bottom: 50px;
+  position: absolute;
+  width: 40px;
+  bottom: 50px;
 }
 
 .column-left {
-	flex: 1;
+  flex: 1;
   flex-direction: column;
-	justify-content: center;
-	margin-right: 3vw;
+  justify-content: center;
+  margin-right: 3vw;
 }
 
 .column-right {
-	flex: 1;
+  flex: 1;
   flex-direction: column;
-	justify-content: center;
-	margin-left: 3vw;
+  justify-content: center;
+  margin-left: 3vw;
 }
 
 .screenshot {
-	#width: 70%;
-	max-width: 100%;
-	max-height: 100%;
-	flex-shrink: 0;
-	align-self: center;
+  max-width: 100%;
+  max-height: 100%;
+  flex-shrink: 0;
+  align-self: center;
 }
 
 .custom-counter {
-	flex-direction: column;
+  flex-direction: column;
   color: #777;
   font-family: 'Inconsolata';
   list-style-type: none;
@@ -123,7 +126,7 @@ color: #f9f9f9;
 }
 
 .custom-counter li::before {
-	display: inline;
+  display: inline;
   content: counter(step-counter);
   margin-right: 30px;
   width: 20px;
@@ -132,28 +135,28 @@ color: #f9f9f9;
 }
 
 @media (max-width: 800px) {
-	section .content {
-		flex-direction: column;
-		max-width: none;
-		padding: 5vw;
-	}
-	
-	.column-left {
-		margin-right: 0px;
-	}
+  section .content {
+    flex-direction: column;
+    max-width: none;
+    padding: 5vw;
+  }
+  
+  .column-left {
+    margin-right: 0px;
+  }
 
-	.column-right {
-		margin-left: 0px;
-	}
-	
-	.screenshot {
-		height: 30vh;
-		width: auto;
-		flex-shrink: 0;
-		align-self: center;
-	}
-	
-	body {
-		font-size: 14px;
-	}
+  .column-right {
+    margin-left: 0px;
+  }
+  
+  .screenshot {
+    height: 30vh;
+    width: auto;
+    flex-shrink: 0;
+    align-self: center;
+  }
+  
+  body {
+    font-size: 14px;
+  }
 }
