@@ -71,6 +71,14 @@ section .content {
   background-color: #FFEDD1;
 }
 
+#section-two .content {
+  width: 900px;
+}
+
+#section-two .column-right {
+  flex: 1.2;
+}
+
 #section-three {
   color: #f9f9f9;
   background-color: #4F6367;
@@ -157,6 +165,7 @@ section .content {
   flex-direction: column;
   color: #777;
   font-family: 'Inconsolata';
+  font-size: 1em;
   list-style-type: none;
   line-height: 1.5em;
   background-color: white;
