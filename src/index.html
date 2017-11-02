@@ -35,15 +35,14 @@
       
       <div class="column-right">
         <ol class="custom-counter">
-          <li>hub.login().success(() => {</li>
-          <li>&nbsp&nbsp// success</li> 
+          <li><span class="code-hub">hub</span>.login().then(user => {</li>
+          <li>&nbsp&nbspconsole.log(user.email);</li>
+          <li>&nbsp&nbsponUserLogin(user.name);</li> 
+          <li>}</li>
+          <li></li> 
+          <li><span class="code-fun">function</span><span>&nbsponUserLogin(name) {</li>
+          <li>&nbsp<span class="code-hub">hub</span>.push(<span class="code-str">'welcome '</span> + name);</li>
           <li>}</li> 
-          <li></li> 
-          <li></li>
-          <li></li> 
-          <li></li> 
-          <li></li>
-          <li></li> 
           <li></li> 
         </ol>
       </div>
