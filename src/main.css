@@ -72,7 +72,7 @@ section .content {
 }
 
 #section-two .content {
-  width: 900px;
+  max-width: 900px;
 }
 
 #section-two .column-right {
