@@ -48,7 +48,7 @@ body {
 section {
   width: calc(100vw - 20px);
   height: calc(100vh - 20px);
-  min-height: 700px;
+  min-height: 720px;
   margin: 10px;
   border-radius: 5px;
   justify-content: center;
