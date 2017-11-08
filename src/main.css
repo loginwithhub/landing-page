@@ -214,6 +214,7 @@ section .content {
   section .content {
     flex-direction: column;
     max-width: 400px;
+    padding: 5vw;
   }
   
   .column-left {
