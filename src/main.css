@@ -64,7 +64,7 @@ img, button {
 section .content {
   flex-direction: row;
   max-height: 70vh;
-  max-width: 800px;
+  max-width: 850px;
   padding: 2vw;
 }
 
@@ -82,10 +82,6 @@ section .content {
   background-color: #FFEDD1;
 }
 
-#section-two .content {
-  max-width: 850px;
-}
-
 #section-two .column-right {
   flex: 1.2;
 }
@@ -99,6 +95,10 @@ section .content {
   width: 40px;
   margin: 30px;
   align-self: center;
+}
+
+#section-three button {
+  background: #ED6B57;
 }
 
 .detail:nth-child(-n+2)::after {
@@ -213,8 +213,7 @@ section .content {
 @media (max-width: 800px) {
   section .content {
     flex-direction: column;
-    max-width: none;
-    padding: 5vw;
+    max-width: 400px;
   }
   
   .column-left {
@@ -223,6 +222,7 @@ section .content {
 
   .column-right {
     margin-left: 0px;
+    margin-top: 50px;
   }
   
   .screenshot {
