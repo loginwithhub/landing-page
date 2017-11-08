@@ -9,6 +9,7 @@ body * {
 
 h1, h2, h3, button {
   font-family: 'Abel', sans-serif;
+  margin-top: 
 }
 
 button {
@@ -233,7 +234,7 @@ section .content {
 
   .column-right {
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   
   .screenshot {
