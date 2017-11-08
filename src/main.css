@@ -47,7 +47,8 @@ body {
 
 section {
   width: calc(100vw - 20px);
-  min-height: calc(100vh - 20px);
+  height: calc(100vh - 20px);
+  min-height: 800px;
   margin: 10px;
   border-radius: 5px;
   justify-content: center;
@@ -215,7 +216,7 @@ section .content {
   section .content {
     flex-direction: column;
     max-width: 400px;
-    max-height: 90vh;
+    max-height: 90%;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 0vw;
@@ -243,7 +244,7 @@ section .content {
   }
   
   .screenshot {
-    height: 30vh;
+    height: 300px;
     width: auto;
     flex-shrink: 0;
     align-self: center;
