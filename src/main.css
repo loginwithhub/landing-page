@@ -48,7 +48,7 @@ body {
 section {
   width: calc(100vw - 20px);
   height: calc(100vh - 20px);
-  min-height: 800px;
+  min-height: 700px;
   margin: 10px;
   border-radius: 5px;
   justify-content: center;
@@ -245,7 +245,7 @@ section .content {
   }
   
   .screenshot {
-    height: 300px;
+    height: 250px;
     width: auto;
     flex-shrink: 0;
     align-self: center;
