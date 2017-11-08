@@ -100,7 +100,8 @@ section .content {
 }
 
 #section-three button {
-  background: #ED6B57;
+  background: rgba(0,0,0,0);
+  border: 1px solid #f9f9f9;
 }
 
 .detail:nth-child(-n+2)::after {
