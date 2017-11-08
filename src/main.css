@@ -216,6 +216,8 @@ section .content {
     max-width: 400px;
     padding-left: 5vw;
     padding-right: 5vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
   }
   
   .column-left {
