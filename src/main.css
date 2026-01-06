@@ -25,6 +25,14 @@ button {
   border-radius: 500px;
   outline: none;
   margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #3d4d51;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -102,6 +110,12 @@ section .content {
 #section-three button {
   background: rgba(0,0,0,0);
   border: 1px solid #f9f9f9;
+}
+
+#section-three button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .detail:nth-child(-n+2)::after {
