@@ -80,7 +80,7 @@ section .content {
 
 #section-one {
   color: #f9f9f9;
-  background: linear-gradient(135deg, #ED6B57 0%, #D4523A 100%);
+  background: linear-gradient(135deg, #3498DB 0%, #2C5AA0 100%);
 }
 
 #section-one .column-right {
